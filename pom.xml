@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>spring_mvc</groupId>
-  <artifactId>CRUD_spring_mvc</artifactId>
+  <artifactId>security-2.4.2</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
