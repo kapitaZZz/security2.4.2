@@ -58,9 +58,6 @@ public class UserController {
         }
         user.setRoles(roleSet);
         userService.addUser(user);
-//        Set<Role> roleSet = Stream.of(checkBoxRoles).forEach();
-//        user.setRoles(roleSet);
-//        userService.addUser(user);
 
         return "redirect:/admin";
     }

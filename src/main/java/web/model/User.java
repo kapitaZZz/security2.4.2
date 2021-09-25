@@ -31,7 +31,6 @@ public class User implements UserDetails {
     @Column
     private String password;
 
-    //список ролей загружается вместе с пользователем сразу (не ждет пока к нему обратятся).
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "users_roles", joinColumns = @JoinColumn(name = "users_id"),
             inverseJoinColumns = @JoinColumn(name = "roles_id"))
